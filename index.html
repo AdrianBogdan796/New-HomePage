@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja strona.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="container">
+    <header>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a class="navigation__navi" href="#ja">O mnie</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__navi" href="#hobby">Hobby</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__navi" href="#tabela">Tabela</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <h1 class="heading">Kilka słów o mnie.</h1>
+        <h2 class="name">Hej nazywam się <em>Adrian Bogdan</em></h2>
+        <img src="https://i.postimg.cc/SQ5KGtj0/333555740-617980823484547-409363658574598933-n.jpg" Adrian Bogdan>
+        <p>
+            <button class="button">Usuń zdjęcie</button>
+        </p>
+        <section class="section" id="ja">
+            <h3 class="pertson section__header">Kim jestem?</h3>
+            <p class="section__paragraph">Mam 24 lata. Skończyłem Technikum Leśne, lecz nie pracuje w swoim zawodzie. Aktualnie pracuje jako
+                ochroniarz w
+                szpitalu.</p>
+        </section>
+
+        <section class="section" id="hobby">
+            <h4 class="hobby section__header">Moje zainteresowania.</h4>
+            <p class="section__paragraph">Uprawiam sporty takie jak koszykówka i sporadycznie chodzę na siłownie. Lubię także oglądać filmy i grać
+                w gry"
+                komputerowe.</p>
+        </section>
+
+        <div class="tableContainer">
+            <table id="tabela" class="table">
+                <caption class="table__caption">Moje ulubione postacie z Marvel'a</caption>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row">Najfajniejsi</th>
+                    <td class="table__cell">Deadpool</td>
+                    <td class="table__cell">Dr Strange</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row">Fajni</th>
+                    <td class="table__cell">Thor</td>
+                    <td class="table__cell">Groot</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__header" scope="row">Spoko</th>
+                    <td class="table__cell">IronMan</td>
+                    <td class="table__cell">Spider-Man</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <p>
+        <button class="button2">Zmień kolor tabeli na ciemny</button>
+    </p>
+    <footer class="footer">
+        <p>Opracował Adrian Bogdan</p>
+    </footer>
+
+</body>
+
+</html>

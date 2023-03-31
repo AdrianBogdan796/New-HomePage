@@ -1,0 +1,14 @@
+.section {
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 2px 2px 8px #ccc;
+    margin: 20px auto;
+}
+
+.section__header {
+    color: blue;
+}
+
+.section__paragraph {
+    color: #777;
+}
