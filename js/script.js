@@ -1,21 +1,29 @@
-console.log("Witam serdecznie.");
-
-let button = document.querySelector(".button");
-let img = document.querySelector("img");
-
-button.addEventListener("click", () => {
-    img.remove();
-});
-
-let button2 = document.querySelector(".button2");
-let table = document.querySelector("table");
-
-button2.addEventListener("click", () => {
-    table.classList.toggle("dark");
-
-    if (table.classList.contains("dark")) {
-        button2.innerText = "Zmień kolor tabeli na ciemny";
-    } else {
-        button2.innerText = "Zmień kolor tabeli na jasny";
-    }
-});
+{
+    const welcome = () => {
+        console.log("Witam serdecznie.");
+        }
+        
+        const toggleBackground = () => {
+            table.classList.toggle("dark");
+        
+            if (table.classList.contains("dark")) {
+                changeBackgroundButton.innerText = "Zmień kolor tabeli na ciemny";
+            } else {
+                changeBackgroundButton.innerText = "Zmień kolor tabeli na jasny";
+            }
+        }
+        
+        welcome();
+        
+        const button = document.querySelector(".button");
+        const img = document.querySelector("img");
+        
+        button.addEventListener("click", () => {
+            img.remove();
+        });
+        
+        const changeBackgroundButton = document.querySelector(".button2");
+        const table = document.querySelector("table");
+        
+        changeBackgroundButton.addEventListener("click", toggleBackground);
+}
